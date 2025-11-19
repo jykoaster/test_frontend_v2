@@ -1,5 +1,8 @@
 <template>
-  <button :class="`e-btn e-btn-${props.color}`" class="rounded cursor-pointer border-none font-bold" >
+  <button
+    :class="`e-btn e-btn-${props.color}`"
+    class="rounded cursor-pointer border-none font-bold"
+  >
     {{ props.text || 'slot' }}
     <slot />
   </button>
@@ -13,7 +16,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   color: 'success',
-  text: ''
+  text: '',
 })
 </script>
 
@@ -23,7 +26,8 @@ const props = withDefaults(defineProps<Props>(), {
   &-success {
     background-color: #0d871c;
     color: white;
-    &:hover,:active {
+    &:hover,
+    :active {
       background-color: #086613;
     }
   }
@@ -32,7 +36,8 @@ const props = withDefaults(defineProps<Props>(), {
   &-error {
     background-color: #b21c1c;
     color: white;
-    &:hover,:active {
+    &:hover,
+    :active {
       background-color: #7d1414;
     }
   }
@@ -41,7 +46,8 @@ const props = withDefaults(defineProps<Props>(), {
   &-warn {
     background-color: #fdc038;
     color: black;
-    &:hover,:active {
+    &:hover,
+    :active {
       background-color: #e6b22d;
     }
   }
