@@ -3,6 +3,20 @@
   "Add": "Add",
   "Delete": "Delete",
   "Action": "Action",
+  "Confirm": "Confirm",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "ConfirmTitle": "Confirm {active} user ?",
+  "ConfirmMessage": "Please confirm your profile info",
+  "ConfirmDeleteTitle": "Confirm deletion of {name}",
+  "Error": "Error",
+  "Success": "Success",
+  "Is required": "is required",
+  "Age must legal": "Age must legal",
   "Name": "Name",
-  "Age": "Age"
+  "Age": "Age",
+  "User not found": "User not found",
+  "User already exists": "User already exists",
+  "Action successfully": "User {active} successful",
+  "Action failed": "User {active} failed"
 }
