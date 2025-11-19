@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "deploy": "npm run generate && gh-pages -d .output/public"
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",
@@ -31,6 +32,7 @@
     "@types/lodash-es": "^4.17.12",
     "@unocss/nuxt": "^65.5.0",
     "@unocss/postcss": "^65.5.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "postcss-nested": "^7.0.2",
     "postcss-preset-env": "^10.2.4",
