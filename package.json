@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "deploy": "npm run generate && gh-pages -d .output/public --dotfiles"
+    "deploy": "npm run generate && echo. > .output/public/.nojekyll && gh-pages -d .output/public --dotfiles"
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",
