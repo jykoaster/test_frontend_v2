@@ -1,8 +1,8 @@
 import axios, { type AxiosInstance, type AxiosResponse, type AxiosError } from 'axios'
 
-const BASE_URL = 'https://12292.wu.elitepro.ltd/api'
+export const BASE_URL = 'https://12292.wu.elitepro.ltd/api'
 
-const api: AxiosInstance = axios.create({
+export const api: AxiosInstance = axios.create({
   baseURL: BASE_URL,
   timeout: 10000,
   headers: {

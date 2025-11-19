@@ -104,7 +104,7 @@ import EBtn from '@/components/EBtn.vue'
 import ETextField from '@/components/ETextField.vue'
 import EDialog from '@/components/EDialog.vue'
 import { useI18n } from '#i18n'
-import { userRepository } from '@/api/user'
+import { userRepository } from '@/api/user/userRepository'
 const { t } = useI18n()
 const appStore = useAppStore()
 
